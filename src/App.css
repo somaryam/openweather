@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.chaud {
+  /* Ajoutez ici votre image de fond pour le thème chaud */
+}
+
+/* Ajoutez d'autres styles pour les thèmes froid et pluie */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.weather-container, .coordinates-container {
+  flex-basis: 45%;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-box {
+  margin-bottom: 20px;
+}
+
+.city {
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.temperature, .description, .main, .wind, .humidity, .pressure, .sunrise, .sunset {
+  margin: 5px 0;
+}
+
+.selects {
+  margin-top: 20px;
+}
+
+.selects select {
+  margin-right: 10px;
+}
+.chaud {
+  background-image: url('https://st.depositphotos.com/1298455/3444/i/450/depositphotos_34448151-stock-photo-blue-sky-with-clouds-and.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Ajoutez les styles pour les thèmes froid et pluie ici */
+
+/* Exemple pour le thème froid */
+.froid {
+  background-image: url('https://img.freepik.com/photos-gratuite/nuages-style-photorealiste_23-2151058968.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1715040000&semt=ais');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Exemple pour le thème pluie */
+.pluie {
+  background-image: url('https://t4.ftcdn.net/jpg/03/66/90/39/360_F_366903907_RzCXMYTOdWnfEmm8wZ3fKnfEOLE2Qhmh.jpg');
+  background-size: cover;
+  background-position: center;
+}
